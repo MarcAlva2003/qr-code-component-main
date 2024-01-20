@@ -20,13 +20,10 @@ body {
 }
 .card-image {
   margin-bottom: 24px;
-  object-fit: contain;
-  width: calc(320px - 32px);
   img {
     border-radius: 10px;
-    width: 100%;
-    max-width: 100%;
-  }
+    width: calc(320px - 32px);
+}
 }
 .card-text {
   text-align: center;
