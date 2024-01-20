@@ -20,9 +20,12 @@ body {
 }
 .card-image {
   margin-bottom: 24px;
+  width: 100%;
+  max-width: 100%;
   img {
     border-radius: 10px;
     width: 100%;
+    max-width: 100%;
   }
 }
 .card-text {
